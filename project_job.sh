@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --time=00:30:00
+#SBATCH --time=00:15:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
-#SBATCH --mem-per-cpu=500M
+#SBATCH --mem-per-cpu=200M
 #SBATCH --job-name=report
 #SBATCH --output=reports-%j.out
 
